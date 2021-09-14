@@ -55,8 +55,8 @@
             <div class="col">
                 @can('site-create')
                     <div class="text-right">
-                        <a href="{{route('rectifiers.create')}}" class="btn btn-outline-primary mb-2"><i
-                                class="fas fa-plus-square fa-2x"></i></a>
+                        <a href="{{route('rectifiers.create')}}" class="btn btn-outline-success mb-2"><i
+                                class="fas fa-plus-circle fa-2x"></i></a>
                     </div>
                 @endcan
             </div>

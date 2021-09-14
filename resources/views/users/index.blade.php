@@ -53,19 +53,19 @@
             <div class="col">
                 @can('user-create')
                     <div class="text-right">
-                        <a href="{{route('users.create')}}" class="btn btn-outline-dark mb-2"><i
-                                class="fas fa-plus-square fa-2x"></i></a>
+                        <a href="{{route('users.create')}}" class="btn btn-outline-success mb-2"><i
+                                class="fas fa-plus-circle fa-2x"></i></a>
                     </div>
                 @endcan
             </div>
         </div>
         <div class="card border-dark mb-3">
-            <div class="card-header bg-gradient-gray-dark font-weight-bold">User Information</div>
+            <div class="card-header bg-gradient-primary font-weight-bold">User Information</div>
             <div class="card-body text-black-50">
                 @if($data->isNotEmpty())
                     <table class="table table-bordered">
                         <thead>
-                        <tr class="bg-gradient-primary">
+                        <tr class="bg-gradient-success">
                             <th scope="col">Employee Id</th>
                             <th scope="col">Name</th>
                             <th scope="col">Email</th>

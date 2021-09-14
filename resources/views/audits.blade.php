@@ -27,12 +27,12 @@
             </div>
         </div>
         <div class="card border-dark mb-3">
-            <div class="card-header bg-gradient-gray-dark font-weight-bold">Audit Information</div>
+            <div class="card-header bg-gradient-primary font-weight-bold">Audit Information</div>
             <div class="card-body text-black-50">
                 @if($audits->isNotEmpty())
                     <table class="table table-bordered">
                         <thead>
-                        <tr class="bg-gradient-primary">
+                        <tr class="bg-gradient-success">
                             <th scope="col">Model</th>
                             <th scope="col">Employee Id</th>
                             <th scope="col">Action</th>

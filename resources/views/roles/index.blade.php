@@ -52,19 +52,19 @@
             <div class="col">
                 @can('role-create')
                     <div class="text-right">
-                        <a href="{{route('roles.create')}}" class="btn btn-outline-dark mb-2"><i
-                                class="fas fa-plus-square fa-2x"></i></a>
+                        <a href="{{route('roles.create')}}" class="btn btn-outline-success mb-2"><i
+                                class="fas fa-plus-circle fa-2x"></i></a>
                     </div>
                 @endcan
             </div>
         </div>
         <div class="card border-dark mb-3">
-            <div class="card-header bg-gradient-gray-dark font-weight-bold">Role Information</div>
+            <div class="card-header bg-gradient-primary font-weight-bold">Role Information</div>
             <div class="card-body text-black-50">
                 @if($roles->isNotEmpty())
                     <table class="table table-bordered">
                         <thead>
-                        <tr class="bg-gradient-primary">
+                        <tr class="bg-gradient-success">
                             <th scope="col">Id</th>
                             <th scope="col">Name</th>
                             @canany(['role-edit','role-delete'])

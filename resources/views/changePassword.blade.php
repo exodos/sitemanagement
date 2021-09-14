@@ -6,7 +6,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card border-dark">
-                    <div class="card-header bg-gradient-gray-dark font-weight-bold">Change Password</div>
+                    <div class="card-header bg-gradient-primary font-weight-bold">Change Password</div>
                     <div class="card-body text-black-50">
                         <form method="POST" action="{{ route('change.password') }}">
                             @csrf
