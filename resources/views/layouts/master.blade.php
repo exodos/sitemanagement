@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Site Management - @yield('title')</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+{{--    <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">--}}
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{asset('img/apple-touch-icon.png')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon-32x32.png')}}">
