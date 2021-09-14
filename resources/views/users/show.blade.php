@@ -10,11 +10,11 @@
                     class="fas fa-caret-left fa-2x"></i></a>
         </div>
         <div class="card border-dark mb-3">
-            <div class="card-header bg-gradient-gray-dark font-weight-bold">User Details</div>
+            <div class="card-header bg-gradient-primary font-weight-bold">User Details</div>
             <div class="card-body text-black-50">
                 <table class="table table-bordered">
                     <thead>
-                    <tr class="bg-gradient-primary">
+                    <tr class="bg-gradient-success">
                         <th scope="col">Employee Id</th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
